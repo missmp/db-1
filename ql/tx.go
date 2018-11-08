@@ -24,8 +24,8 @@ package ql
 import (
 	"context"
 
-	"upper.io/db.v3/internal/sqladapter"
-	"upper.io/db.v3/lib/sqlbuilder"
+	"github.com/missmp/upperdb/internal/sqladapter"
+	"github.com/missmp/upperdb/lib/sqlbuilder"
 )
 
 type tx struct {

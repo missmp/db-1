@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"upper.io/db.v3/postgresql"
+	"github.com/missmp/upperdb/postgresql"
 )
 
 var settings = postgresql.ConnectionURL{

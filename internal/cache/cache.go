@@ -28,7 +28,7 @@ import (
 	"strconv"
 	"sync"
 
-	"upper.io/db.v3/internal/cache/hashstructure"
+	"github.com/missmp/upperdb/internal/cache/hashstructure"
 )
 
 const defaultCapacity = 128

@@ -25,9 +25,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"upper.io/db.v3"
-	"upper.io/db.v3/internal/immutable"
-	"upper.io/db.v3/lib/sqlbuilder"
+	"github.com/missmp/upperdb"
+	"github.com/missmp/upperdb/internal/immutable"
+	"github.com/missmp/upperdb/lib/sqlbuilder"
 )
 
 type Result struct {

@@ -22,7 +22,7 @@
 package db
 
 import (
-	"upper.io/db.v3/internal/immutable"
+	"github.com/missmp/upperdb/internal/immutable"
 )
 
 // Compound represents an statement that has one or many sentences joined by by

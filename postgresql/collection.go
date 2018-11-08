@@ -24,8 +24,8 @@ package postgresql
 import (
 	"database/sql"
 
-	"upper.io/db.v3"
-	"upper.io/db.v3/internal/sqladapter"
+	"github.com/missmp/upperdb"
+	"github.com/missmp/upperdb/internal/sqladapter"
 )
 
 // collection is the actual implementation of a collection.

@@ -20,7 +20,7 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 // Package sqlite wraps the github.com/lib/sqlite SQLite driver. See
-// https://upper.io/db.v3/sqlite for documentation, particularities and
+// https://github.com/missmp/upperdb/sqlite for documentation, particularities and
 // usage examples.
 package sqlite
 
@@ -33,11 +33,11 @@ import (
 	"sync/atomic"
 
 	_ "github.com/mattn/go-sqlite3" // SQLite3 driver.
-	"upper.io/db.v3"
-	"upper.io/db.v3/internal/sqladapter"
-	"upper.io/db.v3/internal/sqladapter/compat"
-	"upper.io/db.v3/internal/sqladapter/exql"
-	"upper.io/db.v3/lib/sqlbuilder"
+	"github.com/missmp/upperdb"
+	"github.com/missmp/upperdb/internal/sqladapter"
+	"github.com/missmp/upperdb/internal/sqladapter/compat"
+	"github.com/missmp/upperdb/internal/sqladapter/exql"
+	"github.com/missmp/upperdb/lib/sqlbuilder"
 )
 
 // database is the actual implementation of Database

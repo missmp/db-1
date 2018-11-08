@@ -6,7 +6,7 @@ import (
 	"log"
 	"testing"
 
-	"upper.io/db.v3/lib/sqlbuilder"
+	"github.com/missmp/upperdb/lib/sqlbuilder"
 )
 
 func mustOpen() sqlbuilder.Database {

@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"upper.io/db.v3"
+	"github.com/missmp/upperdb"
 )
 
 func TestStringAndInt64Array(t *testing.T) {
